@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytocpu"
+version = "0.1.0"
+description = "A Python library for generating x86 machine code."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "Scripe" }
+]
+keywords = [
+    "assembler",
+    "assembly",
+    "machine-code",
+    "x86",
+    "compiler",
+    "binary"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Assemblers",
+    "Topic :: Software Development :: Code Generators"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/Scripe3/pytocpu"
+Repository = "https://github.com/Scripe3/pytocpu"
+Issues = "https://github.com/Scripe3/pytocpu/issues"
