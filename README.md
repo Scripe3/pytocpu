@@ -1,6 +1,6 @@
 # pytocpu
 
-[![PIP Downloads](https://static.pepy.tech/personalized-badge/pytocpu?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=Downloads)](https://pepy.tech/projects/pytocpu)
+[![PIP Downloads](https://static.pepy.tech/personalized-badge/pytocpu?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=Downloads)]([https://pypi.org/project/pytocpu])
 
 **pytocpu** is a Python library for generating machine code programmatically.
 
