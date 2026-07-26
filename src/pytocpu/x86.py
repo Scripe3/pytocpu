@@ -12,7 +12,7 @@ REG32 = {
     "edi": 0xBF,
 }
 
-class X86(Code):
+class X64(Code):
     def mov(self, register, value):
         register = register.lower()
 
