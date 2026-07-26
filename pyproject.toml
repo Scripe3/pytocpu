@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytocpu"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python library for generating x86 machine code."
 readme = "README.md"
 requires-python = ">=3.8"
-license = "MIT"
+license = { text = "MIT" }
 authors = [
     { name = "Scripe" }
 ]
@@ -30,6 +30,8 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Assemblers",
     "Topic :: Software Development :: Code Generators"
 ]

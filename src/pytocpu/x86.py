@@ -12,12 +12,12 @@ REG32 = {
     "edi": 0xBF,
 }
 
-class X64(Code):
+class X86(Code):
     def mov(self, register, value):
         register = register.lower()
 
         if register not in REG32:
-            raise InvalidRegisterError(f"Unknown register: {register}")
+            raise InvalidRegisterError(f"Invalid operand '{register}' for register eax")
 
         self.emit(
             REG32[register],
