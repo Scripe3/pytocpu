@@ -4,7 +4,7 @@
 
 **pytocpu** is a Python library for generating machine code programmatically.
 
-> **Current status:** Alpha (0.1.0)
+> **Current status:** Alpha (0.1.3)
 
 ## Features
 

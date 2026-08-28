@@ -18,6 +18,9 @@ def decode(data):
         byte = data[i]
 
         if byte in REG32:
+            if i + 4 >= len(data):
+                raise ValueError(f"Short mov command: offset={i}")
+
             value = (
                 data[i+1] |
                 data[i+2] << 8 |

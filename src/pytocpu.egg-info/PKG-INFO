@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: pytocpu
-Version: 0.1.1
+Version: 0.1.2
 Summary: A Python library for generating x86 machine code.
 Author: Scripe
 License: MIT
@@ -27,6 +27,8 @@ License-File: LICENSE
 Dynamic: license-file
 
 # pytocpu
+
+[![PIP Downloads](https://static.pepy.tech/personalized-badge/pytocpu?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=Downloads)]([https://pypi.org/project/pytocpu])
 
 **pytocpu** is a Python library for generating machine code programmatically.
 

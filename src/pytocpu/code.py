@@ -1,3 +1,5 @@
+import os
+
 class Code:
     def __init__(self):
         self.data = bytearray()
@@ -9,6 +11,8 @@ class Code:
         self.data.extend(bytes_)
 
     def save(self, filename):
+        filename = os.path.basename(filename)
+
         with open(filename, "wb") as f:
             f.write(self.data)
         return len(self.data)
